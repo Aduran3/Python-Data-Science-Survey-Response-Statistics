@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 
 # Generating 50 random responses rating the food in a cafeteria
+# feel free to change this to serve your data
 def GenerateResponses():
     responses = []
     for i in range(50):                           # the for loop appends 50 random responses from 1 to 5
